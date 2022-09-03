@@ -1,0 +1,44 @@
+.amenitypage{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 91vh;
+}
+
+/* For Texts */
+h1{
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.547);
+}
+.txt{
+    width: 100%;
+    text-align: center;
+}
+
+/* uniform style for 3 cards */
+.amenity1,
+.amenity2,
+.amenity3{
+    flex: 1;
+    border-radius: 15px;
+    margin: 40px;
+    background-color: #176e45;
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+/* sets the background */
+.amenity1{
+    background-image: url("../pictures/resort2.jpg");
+}
+.amenity2{
+    background-image: url("../pictures/arcade.jpg");
+}
+.amenity3{
+    background-image: url("../pictures/bar.jpg");
+}

@@ -1,0 +1,68 @@
+.bg, .staff, .info, .contacts, .contact{
+    display: flex;
+}
+.contacts, .staff{
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: right;
+    flex: 1;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.info, .contact{
+    height: auto;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+p{
+    font-size: 15px;
+}
+
+.bg{
+    width: auto;
+    height: 100%;
+    padding: 50px;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #eae3dd, #ad825a);
+}
+
+.staff{
+    background-image: url("../pictures/staff.jpg");
+    background-position: left;
+}
+.info{
+    width: 60%;
+    background-image: linear-gradient(to bottom right, #2d545e, #12343b);
+    border-radius: 0 20px 20px 0;
+    padding-top: 30px;
+    align-items: flex-start;
+    margin-right: 120px;
+}
+.info p, h1{
+    margin-left: 80px;
+}
+
+.contacts{
+    background-image: url("../pictures/contact.jpg");
+    background-position: right;
+}
+
+.contact{
+    background-image: linear-gradient(to bottom right, #2d545e, #12343b);
+    width: 40%;
+    margin-right: 410px;
+    border-radius: 20px 0 0 20px;
+    align-items: flex-end;
+}
+.contact h1, p{
+    margin-right: 80px;
+}
+.contact p{
+    cursor: pointer;
+}
+
+
+
